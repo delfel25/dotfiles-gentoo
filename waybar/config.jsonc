@@ -35,19 +35,19 @@
     }
   },
 
-  "cpu": { 
-    "format": " {usage}%" 
+  "cpu": {
+    "format": " {usage}%"
   },
-  
-  "memory": { 
-    "format": " {percentage}%" 
+
+  "memory": {
+    "format": " {percentage}%"
   },
 
   "pulseaudio": {
     "format": "{icon} {volume}%",
     "format-muted": "󰝟",
-    "format-icons": { 
-      "default": ["󰕿", "󰖀", "󰕾"] 
+    "format-icons": {
+      "default": ["󰕿", "󰖀", "󰕾"]
     },
     "on-click": "pavucontrol"
   },
@@ -66,7 +66,9 @@
 
   "custom/notification": {
     "format": "󰂚",
-    "tooltip": false
+    "tooltip": false,
+    "on-click": "dunstctl history-pop",
+    "on-click-right": "dunstctl close-all"
   },
 
   "custom/power": {
