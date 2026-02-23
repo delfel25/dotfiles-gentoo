@@ -23,7 +23,7 @@ function fish_prompt
     end
 
     set_color $blue; echo -n ""
-    set_color -b $blue $crust; echo -n " delfel@$hostname"
+    set_color -b $blue $crust; echo -n " user@$hostname"
     set_color normal; set_color $blue; echo -n " "
     set_color $sapphire; echo -n ""
     set_color -b $sapphire $crust; echo -n "󰉖 "(prompt_pwd)
