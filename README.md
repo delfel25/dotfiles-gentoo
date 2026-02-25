@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="images/2026-02-25_17-56-06.png" alt="Gentoo preview" width="600">
+  <img src="images/2026-02-25_17-56-06.png" alt="Gentoo preview" width="1000">
 </p>
 
 
